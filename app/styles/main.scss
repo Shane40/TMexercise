@@ -5,34 +5,90 @@
 // Custom Styles
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left;: 50px;
-  margin-right: 50px;
+  width: 1100px;
 }
 
-.topwrapper .search {
+// .container {
+//   @include outer-container;
+//   height: 800px;
+//   background-color: grey;
+// }
+
+
+// =========borderbox=========
+.topwrapper {
+  font-size: 8pt;
   list-style: none;
-
+  float: left;
+  background-color: hsla(24, 6%, 98%, 1);
+  height: 40px;
+  margin-right: none;
+  width: 1100px;
+  border-bottom: 1px solid black;
 }
+.octiconocticon-mark-github p {
+  margin-top: 15px;
+  float: left;
+  margin-left: 200px;
+}
+.topwrapper .search p {
+  font-size: 6pt;
+  width: 250px;
+  margin-left: 100px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: 1px solid;
+  float: left;
+  color: gray;
+  padding-left: 7px;
+  margin-right: 15px;
+}
+.topwrapper li{
+  font-weight: bold;
+  margin-top: 12px;
+  width: 12px;
+  font-size: 7pt;
+  font-weight: bold;
+  width: 12px;
+}
+.topwrapper .explore {
+  float: left;
+  margin-right: 38px;
+}
+.topwrapper .gist {
+  float: left;
+  margin-right: 28px;
+}
+.topwrapper .blog {
+  float: left;
+  margin-right: 28px;
+}
+.topwrapper .help {
+  float: left;
+  margin-right: 28px;
+}
+.topwrapper .shane img {
+  max-width: 15px;
+  max-height: 15px;
+  float: left;
+}
+.topwrapper .shane40 {
+  float: left;
+}
+// ========END OF BORDER BOX=========
+
 
 .hero-unit {
- 
+  margin-left: 50px;
   width: 600px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   border-radius: 6px;
   padding: 60px;
-
+}
   h1 {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
   }
-}
-
-
-.octicon-octicon-flame {
-  overflow: none;
-  float: left;
-
-}
