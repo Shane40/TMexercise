@@ -1,4 +1,4 @@
-{
+var user ={
   "login": "Shane40",
   "id": 10365759,
   "avatar_url": "https://avatars.githubusercontent.com/u/10365759?v=3",
