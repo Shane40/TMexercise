@@ -305,7 +305,7 @@ body {
 .some-user .h2 h2 {
     margin-left: -750px;
     float: left;
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 172px;
     float: left;
     font-weight: normal;
@@ -376,7 +376,14 @@ body {
   color: HSLA(210, 53%, 51%, 1);
   padding-left: 17px;
 }
+.some-user .follo {
+  float: left;
+  margin-left: -700px;
+  color: none;
+  font-weight: normal;
+  font-size: 10px;
 
+}
 
 // ========END OF USER=========
 
