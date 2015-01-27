@@ -175,7 +175,7 @@ body {
   border-radius: 3px;
 }
 
-// ===========END OF MIDTABS=========
+// ===========BEGINNING OF OF BOTTOMTABS=========
 
 .bottomtabs {
   width: 550px;
@@ -276,36 +276,147 @@ body {
   overflow: none;
 }
 
-// =========BEGINNING OF ENDTABS=========
+// =========END OF BOTTOMTABS=========
 
-
-
-
-
-
-
-
-// =========END OF ENDTABS=========
-
-// .some-container {
-//   position: absolute;
-//   left: 150px;
-//   top: 25px;
-//   float: left;
-//   width: 200px;
-//   font-size: 18px;
-//   font-weight: 50px;
-//   line-height: 30px;
-//   overflow: none;
-// }
-
-.shane2 img {
-  margin-top: 30px;
-  border-radius: 4px;
-
+// ========USER=========
+.some-user {
+  left: 50px;
+  width: 150px;
+  float: left;
+  display:block;
 }
-  h1 {
-    font-size: 24px;
-    letter-spacing: -1px;
-    margin-top: 6px;
-  }
+.some-user img {
+  margin-top: -20px;
+  margin-left: -750px;
+  float: left;
+  width: 170px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.some-user h1 {
+    margin-left: -750px;
+    float: left;
+    font-size: 22px;
+    letter-spacing: -.5px;
+    margin-top: 150px;
+    margin-bottom: 8px;
+    float: left;
+}
+.some-user .h2 h2 {
+    margin-left: -750px;
+    float: left;
+    font-size: 14px;
+    margin-top: 172px;
+    float: left;
+    font-weight: normal;
+    color: grey;
+    width: 170px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid;
+}
+.some-user .locale {
+  list-style: none;
+  margin-left: -750px;
+  margin-top: 210px;
+  font-size: 10px;
+  float: left;
+}
+.some-user .mail {
+ list-style: none;
+ margin-left: -750px;
+  font-size: 10px;
+  margin-top: 225px;
+  float: left;
+  color: HSLA(210, 53%, 51%, 1);
+}
+.some-user .join {
+  list-style: none;
+  font-size: 10px;
+  margin-top: 69px;
+  float: left;
+  margin-left: -750px;
+  margin-top: 240px;
+  width: 170px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+}
+.some-user .follow {
+  list-style: none;
+  font-size: 11px;
+  float: left;
+  margin-top: 80px;
+  margin-bottom: 450px;
+}
+
+.some-user .follow h3 {
+  margin-left: -750px;
+  float: left;
+  margin-top: 200px;
+  width: 15px;
+  font-size: 30px;
+  color: HSLA(210, 53%, 51%, 1);
+  padding-left: 17px;
+}
+
+.some-user .following h3 {
+  margin-left: -700px;
+  float: left;
+  margin-top: 280px;
+  width: 15px;
+  font-size: 30px;
+  color: HSLA(210, 53%, 51%, 1);
+  padding-left: 12px;
+}
+.some-user .gists h3 {
+  margin-left: -660px;
+  float: left;
+  margin-top: 280px;
+  width: 15px;
+  font-size: 30px;
+  color: HSLA(210, 53%, 51%, 1);
+  padding-left: 17px;
+}
+
+
+// ========END OF USER=========
+
+// ======START OF REPO========
+
+.some-repo {
+  float: left;
+  width: 540px;
+  margin-left: 350px;
+  margin-top: -750px;
+  margin-bottom: 10px;
+  border-top: 1px solid;
+  padding-top: 8px;
+}
+
+.some-repo .repohed {
+  float: left;
+  width: 540px;
+  margin-top: 10px;
+  font-size: 17px;
+  color: HSLA(210, 53%, 51%, 1);
+}
+.some-repo .descrip {
+  float: left;
+  width: 540px;
+  font-size: 10px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.some-repo .updatedat {
+  float: left;
+  font-size: 10px;
+  color: grey;
+  margin-top: -5px;
+  margin-bottom: 18px;
+  border-bottom: 540px;
+  font-weight: normal;
+}
+
+
+
+
+// =======END OF REPO=========

@@ -109,21 +109,85 @@
 
 <!-- =====LEFT SIDE===== -->
    
-<!--    <div class="shanebox">
-   </div> -->
+<!-- ========USER JS STUFF======== -->
+<div class="some-user"></div>
+
+<script type="text/template" id="user-template">
+  <div class="biodiv">
+      <img src="https://avatars.githubusercontent.com/u/10365759?v=3c" <%= avatar_url %>
+      </>
+      <h1>  <%= name %> </h1>
+      <span class="h2"><h2>  <%= login %>
+          </h2>
+      </span>
+      <span class="locale">   <li>  <%= location %>
+      </li>
+      </span>
+      <span class="mail"> <li>  <%= email %>
+      </li>
+      </span>
+      <span class="join"> <li>  <%= "Joined on " + created_at %>
+      </li>
+      </span>
+      <span class="follow"><h3>  <%= followers %>
+      </h3>
+      </span>
+       <span class="following"><h3>  <%= following %>
+      </h3>
+      </span>
+       <span class="gists"><h3>  <%= public_gists %>
+      </h3>
+      </span>
     
 
-<script type="text/template" id="item-template">
-    <li class="item">
-        Item Name: <%= name %>
-    </li>
+
+
+    </div>
+
 </script>
+<!-- ==========END OF USER JS STUFF========= -->
+
+
+<!-- ============REPO JS STUFF======= -->
+<div class="some-repo"></div>
+
+<script type="text/template" id="repo-template">
+    <h1 class="repohed">  <%= name %>
+    </h1>
+     <h1 class="descrip">  <%= description %>
+    </h1>
+    <h2 class="updatedat"><%= updated_at %>
+    </h2>
+
+</script>
+
+<!-- ==========END OF REPO JS STUFF======= -->
+
+
+<!-- ==============ORGS JS STUFF============== -->
+
+
+
+
+
+
+
+
+
+
+<!-- ==============END OF ORGS JS STUFF========== -->
+
+
+
+
+
 
 
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
