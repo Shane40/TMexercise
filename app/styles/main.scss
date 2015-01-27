@@ -152,7 +152,7 @@ body {
   margin-left: 5px;
   margin-right: 6px;
 }
-.public {
+.publica {
   float: left;
   width: 70px;
   margin-right: 10px;
@@ -177,18 +177,127 @@ body {
 
 // ===========END OF MIDTABS=========
 
-
-.shanebox {
-  position: absolute;
-  left: 150px;
-  top: 25px;
+.bottomtabs {
+  width: 550px;
+  font-size: 8pt;
+  list-style: none;
   float: left;
-  width: 200px;
-  font-size: 18px;
-  font-weight: 50px;
-  line-height: 30px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+.find {
+  font-size: 7pt;
+  float: left;
+  width: 150px;
+  padding-top: 4px;
+  margin-right: 3px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  color: grey;
+  border: 1px solid;
+}
+
+.searchnew {
+  font-size: 7pt;
+  float: left;
+  width: 60px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-right: 25px;
+  background-color: hsla(24, 6%, 98%, 1);
+  border: 1px solid;
+}
+
+.all {
+  float: left;
+  width: 25px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+
+.public {
+  float: left;
+  width: 30px;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+.private {
+  float: left;
+  width: 30px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  color: blue;
+}
+
+.sources {
+  float: left;
+  padding-top: 3px;
+  width: 35px;
+  margin-right: 10px;
+  color: blue;
+}
+.forks {
+  float: left;
+  width: 25px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  color: blue;
+}
+
+.mirrors {
+  float: left;
+  padding-top: 3px;
+  width: 35px;
+  margin-right: 15x;
+  color: blue;
+}
+.new {
+  float: left;
+  padding-top: 3px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  width: 65px;
+  margin-left: -18px;
+  color: white;
+  border-radius: 2px;
+  background-color: HSLA(104, 60%, 63%, 1);
+}
+.secondocti{
+  position: absolute;
+  left: 820px;
+  margin-right: none;
+  color: white;
   overflow: none;
 }
+
+// =========BEGINNING OF ENDTABS=========
+
+
+
+
+
+
+
+
+// =========END OF ENDTABS=========
+
+// .some-container {
+//   position: absolute;
+//   left: 150px;
+//   top: 25px;
+//   float: left;
+//   width: 200px;
+//   font-size: 18px;
+//   font-weight: 50px;
+//   line-height: 30px;
+//   overflow: none;
+// }
 
 .shane2 img {
   margin-top: 30px;

@@ -64,7 +64,7 @@
     <span class="repositories">
       <li>Repositories</li></span>
     <span class="octicon octicon-rss"></span>
-    <span class="public">
+    <span class="publica">
       <li>Public Activity</li></span>
 
     <span class="octicon octicon-pencil"></span>
@@ -72,10 +72,34 @@
       <li>Edit profile</li></span>
 </div>
 
+<!-- 
+=======BOTTOM TABS======== -->
 
+<div class="bottomtabs">
+  <span class="find">
+      <li>Find a repository</li></span>
+    <span class="searchnew">
+      <li>Search</li></span>
+     <span class="all">
+      <li>All</li></span>
+    <span class="public">
+      <li>Public</li></span>
+    <span class="private">
+      <li>Private</li></span>
+    <span class="sources">
+      <li>Sources</li></span>
+    <span class="forks">
+      <li>Forks</li></span>
+    <span class="mirrors">
+      <li>Mirrors</li></span>
+    <span class="secondocti">
+    <span class="octicon octicon-repo">
+    </span>
+    <span class="new"> 
+      <li>New</li></span>
+</div>
 
-
-
+<!-- =======END OF BOTTOM TABS======== -->
 
 
 
@@ -84,10 +108,16 @@
 
 
 <!-- =====LEFT SIDE===== -->
-    <div class="hero-unit">
-     
-    </div>
+   
+<!--    <div class="shanebox">
+   </div> -->
+    
 
+<script type="text/template" id="item-template">
+    <li class="item">
+        Item Name: <%= name %>
+    </li>
+</script>
 
 
 
