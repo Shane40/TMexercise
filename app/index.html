@@ -137,15 +137,23 @@
       </span>
        <span class="gists"><h3>  <%= public_gists %>
       </h3>
+
       </span>
-      <span class="follo"><a href="https://api.github.com/users/Shane40/followers">Followers</a> <%= followers_url %>
+      <span class="follo1">
+      <li><a href="https://github.com/<%= login %>/followers"><div><%= followers %></div><div>Followers</div></a></li>
       </span>
 
-    </div>
+      <span class="follo2">
+      <li><a href="https://github.com/<%= login %>/starred"><div><%= starred %></div><div>Starred</div></a></li>
+      </span>
+      <span class="follo3">
+      <li><a href="https://github.com/<%= login %>/following"><div><%= following %></div><div>Following</div></a></li>
+      
 
 </script>
-<!-- ==========END OF USER JS STUFF========= -->
 
+
+<!-- ==========END OF USER JS STUFF========= -->
 
 <!-- ============REPO JS STUFF======= -->
 <div class="some-repo"></div>
@@ -165,9 +173,14 @@
 
 <!-- ==============ORGS JS STUFF============== -->
 
+<div class="some-org"></div>
 
+<script type="text/template" id="org-template">
+  <span class="orgicon">
+  <li><a href="https://avatars.githubusercontent.com/u/10352544?v=3"><div><%= avatar %></div></a></li>
+    </span>
 
-
+</script>
 
 
 
@@ -175,6 +188,20 @@
 
 
 <!-- ==============END OF ORGS JS STUFF========== -->
+
+
+
+
+
+<footer>
+  <li>© 2015 GitHub Inc.</li>
+  <li> Terms </li>
+  <li>Privacy</li>
+  <li>Security</li>
+  <li>Contact</li>
+</footer>
+
+
 
 
 

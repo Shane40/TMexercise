@@ -63,7 +63,20 @@ var reporendered = _.template(repotemplate);
 
 
 
+// Grab the template.
+var orgtemplate = $('#org-template').html();
 
+// Turn it into a template function.
+var orgrendered = _.template(orgtemplate);
+
+// Pass in an object. Return value is a string
+// with the bee stings replaced with object's properties
+ $.getJSON(orgs).done (function (ava){
+ 		console.log(ava);
+ 		ava.forEach(function (x){ 
+ $('.some-org').append(orgrendered(x));
+ 	});
+ });
 
 
 
